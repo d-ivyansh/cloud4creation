@@ -13,70 +13,579 @@
 
 <body class="">
     <!-- background image -->
-    <!-- <div class="w-full h-screen bg-no-repeat bg-cover relative "
-        style="background-image: url('./assets/background_img_home.svg');"> -->
-    <div>
-        <img src="./assets/background_img_home.svg" alt="background image" class="w-full h-auto relative ">
+    <div class="relative">
+        <img src="./assets/background_img_home.svg" alt="background image" class="w-full h-auto relative">
     </div>
+
     <!-- navbar -->
-    <nav class=" absolute top-0 flex justify-around items-center">
-
+    <nav class="absolute top-0 left-0 right-20 flex justify-between items-center ml-20  sm:px-6 lg:px-8">
         <div>
-            <img src="./assets/rajbrinder toor 1.svg" alt="Logo" class="cursor-pointer ml-[80px] mt-[46px]">
+            <img src="./assets/rajbrinder toor 1.svg" alt="Logo" class="cursor-pointer mt-12 sm:ml-4">
         </div>
-
-        <div class="flex justify-evenly  text-white w-[798px] h-[26px] ml-[632px] mt-[66px]">
-            <div class="cursor-pointer">Home</div>
-            <div class="cursor-pointer">About Us</div>
-            <div class="cursor-pointer">Web Design</div>
-            <div class="cursor-pointer">Services</div>
-            <div class="cursor-pointer">Contact us</div>
+        <div class="hidden sm:flex justify-between text-white mt-16 w-[40rem] text-xl">
+            <div class="cursor-pointer mx-2">Home</div>
+            <div class="cursor-pointer mx-2">About Us</div>
+            <div class="cursor-pointer mx-2">Web Design</div>
+            <div class="cursor-pointer mx-2">Services</div>
+            <div class="cursor-pointer mx-2">Contact us</div>
+        </div>
+        <!-- Hamburger icon for mobile -->
+        <div class="sm:hidden">
+            <button class="text-white cursor-pointer p-10">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7">
+                    </path>
+                </svg>
+            </button>
         </div>
     </nav>
     <!-- navbar ends -->
 
     <!-- main -->
     <section>
+        <!-- hero text -->
         <main class="absolute top-60">
-            <div class="flex justify-between w-full mt-28 mx-40  text-white">
-                <h1 class=" font-orbitron font-extralight text-[30px]">Explore Our <b
-                        class="font-semibold text-[50px]">Printing Service <br> And <br> Web Services</b> </h1>
-            </div>
-
-            <p class="mx-40 mt-10 text-base w-[50%]  text-white">Lorem Ipsum is simply dummy text of the printing and
-                typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500
-                <b>read more...</b>
-            </p>
-            <div class="flex mt-8 mx-32">
-                <button class="bg-white text-black border-black border rounded-lg py-2 px-8 mr-5 shadow-lg">View all
-                    Features</button>
+            <div class="mx-4 sm:mx-10 md:mx-20 lg:mx-40">
+                <div class="flex justify-between w-full mt-28 mx-4  text-white">
+                    <h1 class=" font-orbitron font-extralight text-[30px]">Explore Our <b
+                            class="font-semibold text-[50px]">Printing Service <br> And <br> Web Services</b> </h1>
+                </div>
+                <p class="mt-10 sm:mt-6 text-sm sm:text-base lg:text-lg text-white w-[50%] mx-4">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s.
+                    <b>Read more...</b>
+                </p>
+                <div class="flex justify-center sm:justify-start mt-6 sm:mt-8">
+                    <button class="bg-white text-black border border-black rounded-lg py-2 px-6 sm:px-8 shadow-lg">View
+                        all Features</button>
+                </div>
             </div>
         </main>
+
         <!-- our smarter way to create values -->
         <section>
-            <!-- <div>
-                <div class="relative w-screen h-[443px] bg-no-repeat bg-cover"
-                    style="background-image: url('./assets/lower_background_with_text_home.svg');"></div>
-            </div> -->
             <div>
                 <img src="./assets/lower_background_with_text_home.svg" alt="" class="w-full h-auto relative ">
             </div>
         </section>
         <!-- printing services we provide -->
         <section>
-            <div>
-                <img src="./assets/spotted_background.svg" alt="" class="w-full h-auto relative ">
-            </div>
-            <div class="absolute top-[1900px] flex justify-center items-center w-full text-white font-extrabold text-[53px] font-orbitron ">
-                <div class="w-[800px] ">
-                    <div class="flex justify-center items-center"><b class=" text-[80px] ">Printing Services</b></div>
-                <div class="flex justify-center items-center">we Provide</div>
-
+            <!-- <div class="relative">
+                <img src="./assets/spotted_background.svg" alt="" class="w-full h-auto">
+            </div> -->
+            <div class="w-[1512px] h-[2702px] relative"
+                style="background-image: url('./assets/spotted_background.svg');">
+                <div class="w-[1396.13px] h-[2302.54px] left-[220px] top-[200px] absolute">
                 </div>
-                
+                <div class="w-[245px] h-[245px] left-[289px] top-[342px] absolute">
+                    <div class="w-[245px] h-[245px] left-0 top-0 absolute bg-white rounded-[10px] shadow"></div>
+                    <div
+                        class="w-[218px] left-[13px] top-[146px] absolute text-neutral-700 text-[15px] font-normal font-['Inter']">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div
+                        class="left-[13px] top-[103px] absolute text-neutral-700 text-xl font-black font-['Nunito Sans']">
+                        Custom Labels</div>
+                    <div
+                        class="left-[13px] top-[207px] absolute text-neutral-700 text-[15px] font-semibold font-['Inter']">
+                        Click Here...</div>
+                </div>
+                <div class="w-[245px] h-[245px] left-[289px] top-[986px] absolute">
+                    <div class="w-[245px] h-[245px] left-0 top-0 absolute bg-white rounded-[10px] shadow"></div>
+                    <div
+                        class="w-[218px] left-[13px] top-[146px] absolute text-neutral-700 text-[15px] font-normal font-['Inter']">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div
+                        class="left-[13px] top-[207px] absolute text-neutral-700 text-[15px] font-semibold font-['Inter']">
+                        Click Here...</div>
+                    <div
+                        class="left-[13px] top-[103px] absolute text-neutral-700 text-xl font-black font-['Nunito Sans']">
+                        For Sale Signs</div>
+                </div>
+                <div class="w-[245px] h-[245px] left-[289px] top-[664px] absolute">
+                    <div class="w-[245px] h-[245px] left-0 top-0 absolute bg-white rounded-[10px] shadow"></div>
+                    <div
+                        class="w-[218px] left-[13px] top-[146px] absolute text-neutral-700 text-[15px] font-normal font-['Inter']">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div
+                        class="left-[13px] top-[207px] absolute text-neutral-700 text-[15px] font-semibold font-['Inter']">
+                        Click Here...</div>
+                    <div
+                        class="left-[13px] top-[103px] absolute text-neutral-700 text-xl font-black font-['Nunito Sans']">
+                        Greeting Cards</div>
+                </div>
+                <div class="w-[245px] h-[245px] left-[633px] top-[342px] absolute">
+                    <div class="w-[245px] h-[245px] left-0 top-0 absolute bg-white rounded-[10px] shadow"></div>
+                    <div
+                        class="w-[218px] left-[19px] top-[146px] absolute text-neutral-700 text-[15px] font-normal font-['Inter']">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div
+                        class="left-[19px] top-[207px] absolute text-neutral-700 text-[15px] font-semibold font-['Inter']">
+                        Click Here...</div>
+                    <div
+                        class="left-[19px] top-[103px] absolute text-neutral-700 text-xl font-black font-['Nunito Sans']">
+                        Custom Packaging</div>
+                </div>
+                <div class="w-[245px] h-[245px] left-[633px] top-[986px] absolute">
+                    <div class="w-[245px] h-[245px] left-0 top-0 absolute bg-white rounded-[10px] shadow"></div>
+                    <div
+                        class="w-[218px] left-[19px] top-[146px] absolute text-neutral-700 text-[15px] font-normal font-['Inter']">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div
+                        class="left-[19px] top-[207px] absolute text-neutral-700 text-[15px] font-semibold font-['Inter']">
+                        Click Here...</div>
+                    <div
+                        class="left-[19px] top-[103px] absolute text-neutral-700 text-xl font-black font-['Nunito Sans']">
+                        Apparel</div>
+                </div>
+                <div class="w-[245px] h-[245px] left-[633px] top-[664px] absolute">
+                    <div class="w-[245px] h-[245px] left-0 top-0 absolute bg-white rounded-[10px] shadow"></div>
+                    <div
+                        class="w-[218px] left-[19px] top-[146px] absolute text-neutral-700 text-[15px] font-normal font-['Inter']">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div
+                        class="left-[19px] top-[207px] absolute text-neutral-700 text-[15px] font-semibold font-['Inter']">
+                        Click Here...</div>
+                    <div
+                        class="left-[19px] top-[103px] absolute text-neutral-700 text-xl font-black font-['Nunito Sans']">
+                        Booklets</div>
+                </div>
+                <div class="w-[245px] h-[245px] left-[977px] top-[342px] absolute">
+                    <div class="w-[245px] h-[245px] left-0 top-0 absolute bg-white rounded-[10px] shadow"></div>
+                    <div
+                        class="w-[218px] left-[14px] top-[146px] absolute text-neutral-700 text-[15px] font-normal font-['Inter']">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div
+                        class="left-[14px] top-[207px] absolute text-neutral-700 text-[15px] font-semibold font-['Inter']">
+                        Click Here...</div>
+                    <div
+                        class="left-[14px] top-[103px] absolute text-neutral-700 text-xl font-black font-['Nunito Sans']">
+                        Business Cards</div>
+                </div>
+                <div class="w-[245px] h-[245px] left-[977px] top-[986px] absolute">
+                    <div class="w-[245px] h-[245px] left-0 top-0 absolute bg-white rounded-[10px] shadow"></div>
+                    <div
+                        class="w-[218px] left-[14px] top-[146px] absolute text-neutral-700 text-[15px] font-normal font-['Inter']">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div
+                        class="left-[14px] top-[207px] absolute text-neutral-700 text-[15px] font-semibold font-['Inter']">
+                        Click Here...</div>
+                    <div
+                        class="left-[14px] top-[103px] absolute text-neutral-700 text-xl font-black font-['Nunito Sans']">
+                        Folders</div>
+                </div>
+                <div class="w-[245px] h-[245px] left-[977px] top-[664px] absolute">
+                    <div class="w-[245px] h-[245px] left-0 top-0 absolute bg-white rounded-[10px] shadow"></div>
+                    <div
+                        class="w-[218px] left-[14px] top-[146px] absolute text-neutral-700 text-[15px] font-normal font-['Inter']">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    <div
+                        class="left-[14px] top-[207px] absolute text-neutral-700 text-[15px] font-semibold font-['Inter']">
+                        Click Here...</div>
+                    <div
+                        class="left-[14px] top-[103px] absolute text-neutral-700 text-xl font-black font-['Nunito Sans']">
+                        Door Hangers</div>
+                </div>
+                <div
+                    class="left-[727px] top-[261px] absolute text-white text-[15px] font-normal font-['Inter'] underline">
+                    View All</div>
             </div>
         </section>
+
+
+        <!-- white vector -->
+        <div class="w-[1512px] h-[1180px] relative"
+            style="background-image: url('./assets/white_vector_background.svg');">
+            <div class="w-[285.77px] h-[206px] left-[562px] top-[126px] absolute">
+                <div class="w-[183px] h-[38px] left-0 top-0 absolute">
+                    <div
+                        class="w-[26px] h-[31px] left-[9px] top-0 absolute text-center text-neutral-700 text-3xl font-extrabold font-['Nunito Sans']">
+                        1.</div>
+                    <div
+                        class="left-[56px] top-[4px] absolute text-center text-neutral-700 text-[25px] font-bold font-['Nunito Sans']">
+                        Experience</div>
+                </div>
+                <div
+                    class="w-[233px] left-[52.77px] top-[46px] absolute text-neutral-700 text-[15px] font-normal font-['Nunito Sans']">
+                    Our digital marketing process gives a a beautiful experience in all together right from UI design to
+                    development to getting it ranked on keywords. We ensure you are on board throughout the process with
+                    all the necessary checks and approvals.</div>
+            </div>
+            <div class="w-[286.33px] h-[185px] left-[990px] top-[192px] absolute">
+                <div class="w-[203px] h-[37px] left-0 top-0 absolute">
+                    <div
+                        class="w-[26px] h-[31px] left-[9px] top-0 absolute text-center text-neutral-700 text-3xl font-extrabold font-['Nunito Sans']">
+                        5.</div>
+                    <div
+                        class="left-[53px] top-[3px] absolute text-neutral-700 text-[25px] font-bold font-['Nunito Sans']">
+                        Commitment</div>
+                </div>
+                <div
+                    class="w-[233px] left-[53.33px] top-[45px] absolute text-neutral-700 text-[15px] font-normal font-['Nunito Sans']">
+                    A good agencies commitment towards is clients is what says about its characters and work culture. We
+                    stand with our clients strongly and ensure that they make the most out of this relationship.</div>
+            </div>
+            <div class="w-[286.01px] h-[166px] left-[213px] top-[237px] absolute">
+                <div class="w-[237.23px] h-[38px] left-0 top-0 absolute">
+                    <div
+                        class="w-[26px] h-[31px] left-[9px] top-0 absolute text-center text-neutral-700 text-3xl font-extrabold font-['Nunito Sans']">
+                        2.</div>
+                    <div
+                        class="left-[53.23px] top-[4px] absolute text-center text-neutral-700 text-[25px] font-bold font-['Nunito Sans']">
+                        Result Oriented</div>
+                </div>
+                <div
+                    class="w-[233px] left-[53.01px] top-[46px] absolute text-stone-900 text-[15px] font-normal font-['Nunito Sans']">
+                    All our works are aligned towards one goal, delivering results for clients. We understand what it is
+                    to run a business and the importance of achieving the results for its sustenance.</div>
+            </div>
+            <div class="w-[285.58px] h-[206px] left-[395px] top-[858px] absolute">
+                <div class="w-[266.80px] h-[38px] left-0 top-0 absolute">
+                    <div
+                        class="w-[26px] h-[31px] left-[9px] top-0 absolute text-center text-neutral-700 text-3xl font-extrabold font-['Nunito Sans']">
+                        3.</div>
+                    <div
+                        class="left-[52.80px] top-[4px] absolute text-center text-neutral-700 text-[25px] font-bold font-['Nunito Sans']">
+                        Technical strength</div>
+                </div>
+                <div
+                    class="w-[233px] left-[52.58px] top-[46px] absolute text-neutral-700 text-[15px] font-normal font-['Nunito Sans']">
+                    In digital scope, a strong technological understanding is a must as this is what powers everything
+                    else. From a good website or mobile app to its digital marketing, deep knowledge of technology is
+                    required for steady results.</div>
+            </div>
+            <div class="w-[286.33px] h-[185px] left-[830px] top-[858px] absolute">
+                <div class="w-[166px] h-[37px] left-0 top-0 absolute">
+                    <div
+                        class="w-[26px] h-[31px] left-[9px] top-0 absolute text-center text-neutral-700 text-3xl font-extrabold font-['Nunito Sans']">
+                        4.</div>
+                    <div
+                        class="left-[53px] top-[3px] absolute text-neutral-700 text-[25px] font-bold font-['Nunito Sans']">
+                        Creativity</div>
+                </div>
+                <div
+                    class="w-[233px] left-[53.33px] top-[45px] absolute text-neutral-700 text-[15px] font-normal font-['Nunito Sans']">
+                    Creativity is always the core essence of any work especially when it comes to social media marketing
+                    and branding. Our expert team goes all out in bringing the creative works for you.</div>
+            </div>
+            <div
+                class="px-6 py-2 left-[669px] top-[612px] absolute bg-white rounded shadow justify-center items-center gap-4 inline-flex">
+                <div class="text-black text-base font-semibold font-['Open Sans'] leading-normal">View all Features
+                </div>
+            </div>
+        </div>
+
+
+        <!-- client testimonials -->
+        <div
+            class="w-[1512px] h-[512px] pt-[75px] pb-[57px] bg-black flex-col justify-end items-center gap-[61.71px] inline-flex">
+            <div
+                class="w-[695px] h-[66px] text-center text-white text-[50px] font-extrabold font-['Orbitron'] capitalize">
+                CLIENTS TESTIMONIALS</div>
+            <div class="self-stretch h-[252.29px] relative">
+                <div class="w-[293px] h-[252.29px] left-0 top-0 absolute">
+                    <div
+                        class="w-[293px] h-[252.29px] left-0 top-0 absolute bg-white rounded-2xl border border-slate-200">
+                    </div>
+                    <div class="w-[272.14px] h-[228.13px] left-[15px] top-[13.61px] absolute">
+                        <div
+                            class="w-[220.68px] h-[158.27px] p-2.5 left-[51.45px] top-[69.86px] absolute bg-white flex-col justify-start items-start gap-2.5 inline-flex">
+                            <div class="w-[200.68px] h-[138.27px] justify-start items-start gap-[9.60px] inline-flex">
+                                <div
+                                    class="w-[200.68px] h-[133.47px] text-gray-800 text-sm font-normal font-['Poppins']">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt </div>
+                            </div>
+                        </div>
+                        <div
+                            class="w-[159.09px] h-[60.16px] left-0 top-0 absolute bg-white justify-start items-start gap-3.5 inline-flex">
+                            <img class="w-[46.09px] h-[46.09px] rounded-full" src="./assets/photo_client.png" />
+                            <div class="flex-col justify-start items-start gap-[7.68px] inline-flex">
+                                <div class="justify-start items-start gap-[9.60px] inline-flex">
+                                    <div class="w-[99px] h-10"><span
+                                            style="text-gray-800 text-sm font-bold font-['Poppins']">Nazmul
+                                            Karim</span><span
+                                            style="text-gray-800 text-sm font-normal font-['Poppins']"> </span><span
+                                            style="text-neutral-500 text-sm font-normal font-['Poppins']">CEO
+                                            </span></div>
+                                </div>
+                                <div class="w-[77.78px] h-[12.48px] relative flex">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[293px] h-[252.29px] left-[332px] top-0 absolute">
+                    <div
+                        class="w-[293px] h-[252.29px] left-0 top-0 absolute bg-white rounded-2xl border border-slate-200">
+                    </div>
+                    <div class="w-[272.14px] h-[228.13px] left-[15px] top-[13.61px] absolute">
+                        <div
+                            class="w-[220.68px] h-[158.27px] p-2.5 left-[51.45px] top-[69.86px] absolute bg-white flex-col justify-start items-start gap-2.5 inline-flex">
+                            <div class="w-[200.68px] h-[138.27px] justify-start items-start gap-[9.60px] inline-flex">
+                                <div
+                                    class="w-[200.68px] h-[133.47px] text-gray-800 text-sm font-normal font-['Poppins']">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt </div>
+                            </div>
+                        </div>
+                        <div
+                            class="w-[159.09px] h-[60.16px] left-0 top-0 absolute bg-white justify-start items-start gap-3.5 inline-flex">
+                            <img class="w-[46.09px] h-[46.09px] rounded-full" src="./assets/photo_client.png" />
+                            <div class="flex-col justify-start items-start gap-[7.68px] inline-flex">
+                                <div class="justify-start items-start gap-[9.60px] inline-flex">
+                                    <div class="w-[99px] h-10"><span
+                                            style="text-gray-800 text-sm font-bold font-['Poppins']">Nazmul
+                                            Karim</span><span
+                                            style="text-gray-800 text-sm font-normal font-['Poppins']"> </span><span
+                                            style="text-neutral-500 text-sm font-normal font-['Poppins']">CEO
+                                            </span></div>
+                                </div>
+                                <div class="w-[77.78px] h-[12.48px] relative flex">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[293px] h-[252.29px] left-[664px] top-0 absolute">
+                    <div
+                        class="w-[293px] h-[252.29px] left-0 top-0 absolute bg-white rounded-2xl border border-slate-200">
+                    </div>
+                    <div class="w-[272.14px] h-[228.13px] left-[15px] top-[13.61px] absolute">
+                        <div
+                            class="w-[220.68px] h-[158.27px] p-2.5 left-[51.45px] top-[69.86px] absolute bg-white flex-col justify-start items-start gap-2.5 inline-flex">
+                            <div class="w-[200.68px] h-[138.27px] justify-start items-start gap-[9.60px] inline-flex">
+                                <div
+                                    class="w-[200.68px] h-[133.47px] text-gray-800 text-sm font-normal font-['Poppins']">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt </div>
+                            </div>
+                        </div>
+                        <div
+                            class="w-[159.09px] h-[60.16px] left-0 top-0 absolute bg-white justify-start items-start gap-3.5 inline-flex">
+                            <img class="w-[46.09px] h-[46.09px] rounded-full" src="./assets/photo_client.png" />
+                            <div class="flex-col justify-start items-start gap-[7.68px] inline-flex">
+                                <div class="justify-start items-start gap-[9.60px] inline-flex">
+                                    <div class="w-[99px] h-10"><span
+                                            style="text-gray-800 text-sm font-bold font-['Poppins']">Nazmul
+                                            Karim</span><span
+                                            style="text-gray-800 text-sm font-normal font-['Poppins']"> </span><span
+                                            style="text-neutral-500 text-sm font-normal font-['Poppins']">CEO
+                                            </span></div>
+                                </div>
+                                <div class="w-[77.78px] h-[12.48px] relative flex">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[293px] h-[252.29px] left-[996px] top-0 absolute">
+                    <div
+                        class="w-[293px] h-[252.29px] left-0 top-0 absolute bg-white rounded-2xl border border-slate-200">
+                    </div>
+                    <div class="w-[272.14px] h-[228.13px] left-[15px] top-[13.61px] absolute">
+                        <div
+                            class="w-[220.68px] h-[158.27px] p-2.5 left-[51.45px] top-[69.86px] absolute bg-white flex-col justify-start items-start gap-2.5 inline-flex">
+                            <div class="w-[200.68px] h-[138.27px] justify-start items-start gap-[9.60px] inline-flex">
+                                <div
+                                    class="w-[200.68px] h-[133.47px] text-gray-800 text-sm font-normal font-['Poppins']">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt </div>
+                            </div>
+                        </div>
+                        <div
+                            class="w-[159.09px] h-[60.16px] left-0 top-0 absolute bg-white justify-start items-start gap-3.5 inline-flex">
+                            <img class="w-[46.09px] h-[46.09px] rounded-full" src="./assets/photo_client.png" />
+                            <div class="flex-col justify-start items-start gap-[7.68px] inline-flex">
+                                <div class="justify-start items-start gap-[9.60px] inline-flex">
+                                    <div class="w-[99px] h-10"><span
+                                            style="text-gray-800 text-sm font-bold font-['Poppins']">Nazmul
+                                            Karim</span><span
+                                            style="text-gray-800 text-sm font-normal font-['Poppins']"> </span><span
+                                            style="text-neutral-500 text-sm font-normal font-['Poppins']">CEO
+                                            </span></div>
+                                </div>
+                                <div class="w-[77.78px] h-[12.48px] relative flex">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-[293px] h-[252.29px] left-[1328px] top-0 absolute">
+                    <div
+                        class="w-[293px] h-[252.29px] left-0 top-0 absolute bg-white rounded-2xl border border-slate-200">
+                    </div>
+                    <div class="w-[272.14px] h-[228.13px] left-[15px] top-[13.61px] absolute">
+                        <div
+                            class="w-[220.68px] h-[158.27px] p-2.5 left-[51.45px] top-[69.86px] absolute bg-white flex-col justify-start items-start gap-2.5 inline-flex">
+                            <div class="w-[200.68px] h-[138.27px] justify-start items-start gap-[9.60px] inline-flex">
+                                <div
+                                    class="w-[200.68px] h-[133.47px] text-gray-800 text-sm font-normal font-['Poppins']">
+                                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt </div>
+                            </div>
+                        </div>
+                        <div
+                            class="w-[159.09px] h-[60.16px] left-0 top-0 absolute bg-white justify-start items-start gap-3.5 inline-flex">
+                            <img class="w-[46.09px] h-[46.09px] rounded-full" src="./assets/photo_client.png" />
+                            <div class="flex-col justify-start items-start gap-[7.68px] inline-flex">
+                                <div class="justify-start items-start gap-[9.60px] inline-flex">
+                                    <div class="w-[99px] h-10"><span
+                                            style="text-gray-800 text-sm font-bold font-['Poppins']">Nazmul
+                                            Karim</span><span
+                                            style="text-gray-800 text-sm font-normal font-['Poppins']"> </span><span
+                                            style="text-neutral-500 text-sm font-normal font-['Poppins']">CEO
+                                            </span></div>
+                                </div>
+                                <div class="w-[77.78px] h-[12.48px] relative flex" >
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                    <img src="./assets/star_vector.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </section>
+    <!-- footer -->
+    <footer>
+        
+        <div class="w-[1512px] h-[2694px] relative" style="background-image: url('./assets/footer_background_home.svg');">
+            <div class="h-[174px] px-[52px] py-[35px] left-[220px] top-[277px] absolute bg-stone-100 rounded-[10px] flex-col justify-start items-start inline-flex">
+              <div class="flex-col justify-start items-start gap-4 flex">
+                <div class="justify-center items-center gap-[34px] inline-flex">
+                  <div class="w-[896px] text-black text-3xl font-extrabold font-['Inter']">What is UX design?</div>
+                  <div class="origin-top-left -rotate-180 w-10 h-10 relative">
+                    <div class="w-10 h-10 left-0 top-0 absolute origin-top-left -rotate-180 rounded-[100px] border-2 border-stone-950"></div>
+                  </div>
+                </div>
+                <div class="w-[989px] text-black text-xl font-normal font-['Inter']">UX design stands for User Experience design. It is the process of designing digital or physical products that are easy to use, intuitive, and enjoyable for the user.</div>
+              </div>
+            </div>
+            <div class="px-[52px] py-[35px] left-[219px] top-[500px] absolute bg-stone-100 rounded-[10px] flex-col justify-start items-start inline-flex">
+              <div class="flex-col justify-start items-start gap-4 flex">
+                <div class="justify-center items-center gap-[34px] inline-flex">
+                  <div class="w-[896px] text-black text-3xl font-extrabold font-['Inter']">What are the key principles of UX design?</div>
+                  <div class="w-10 h-10 relative">
+                    <div class="w-10 h-10 left-0 top-0 absolute rounded-[100px] border-2 border-stone-950"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="px-[52px] py-[35px] left-[219px] top-[818px] absolute bg-stone-100 rounded-[10px] flex-col justify-start items-start inline-flex">
+              <div class="flex-col justify-start items-start gap-4 flex">
+                <div class="justify-center items-center gap-[34px] inline-flex">
+                  <div class="w-[896px] text-black text-3xl font-extrabold font-['Inter']">What is the difference between UX and UI design?</div>
+                  <div class="w-10 h-10 relative">
+                    <div class="w-10 h-10 left-0 top-0 absolute rounded-[100px] border-2 border-stone-950"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="px-[52px] py-[35px] left-[219px] top-[659px] absolute bg-stone-100 rounded-[10px] flex-col justify-start items-start inline-flex">
+              <div class="flex-col justify-start items-start gap-4 flex">
+                <div class="justify-center items-center gap-[34px] inline-flex">
+                  <div class="w-[896px] text-black text-3xl font-extrabold font-['Inter']">What is a wireframe?</div>
+                  <div class="origin-top-left -rotate-180 w-10 h-10 relative">
+                    <div class="w-10 h-10 left-0 top-0 absolute origin-top-left -rotate-180 rounded-[100px] border-2 border-stone-950"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="px-[52px] py-[35px] left-[219px] top-[977px] absolute bg-stone-100 rounded-[10px] flex-col justify-start items-start inline-flex">
+              <div class="flex-col justify-start items-start gap-4 flex">
+                <div class="justify-center items-center gap-[34px] inline-flex">
+                  <div class="w-[896px] text-black text-3xl font-extrabold font-['Inter']">What is user testing?</div>
+                  <div class="w-10 h-10 relative">
+                    <div class="w-10 h-10 left-0 top-0 absolute rounded-[100px] border-2 border-stone-950"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-[392px] left-[80px] top-[2480px] absolute text-white text-[15px] font-medium font-['Inter']">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</div>
+            <div class="left-[545px] top-[2624px] absolute text-white text-opacity-30 text-[23px] font-medium font-['Inter']">@copyright reserved Cloud4Creations</div>
+            <div class="w-[392px] h-[51px] left-[80px] top-[2413px] absolute bg-white"></div>
+            <div class="left-[101px] top-[2430px] absolute opacity-40 text-black text-sm font-medium font-['Inter']">Enter Email For News Letter</div>
+            <div class="h-[198px] left-[653px] top-[2331px] absolute">
+              <div class="w-[89px] h-[198px] left-0 top-0 absolute">
+                <div class="left-0 top-0 absolute text-white text-xl font-medium font-['Inter']">Home</div>
+                <div class="left-0 top-[58px] absolute text-white text-xl font-medium font-['Inter']">About Us</div>
+                <div class="left-0 top-[116px] absolute text-white text-xl font-medium font-['Inter']">Services</div>
+                <div class="left-0 top-[174px] absolute text-white text-xl font-medium font-['Inter']">Help</div>
+              </div>
+              <div class="w-[127px] h-[198px] left-[200px] top-0 absolute">
+                <div class="left-0 top-0 absolute text-white text-xl font-medium font-['Inter']">Contact Us</div>
+                <div class="left-0 top-[58px] absolute text-white text-xl font-medium font-['Inter']">Our Team</div>
+                <div class="left-0 top-[116px] absolute text-white text-xl font-medium font-['Inter']">Terms of Use</div>
+                <div class="left-0 top-[174px] absolute text-white text-xl font-medium font-['Inter']">Blog</div>
+              </div>
+            </div>
+            <div class="w-12 h-12 left-[323.96px] top-[2325px] absolute">
+              <div class="w-12 h-12 left-0 top-0 absolute bg-blue-600 rounded-full"></div>
+            </div>
+            <div class="w-12 h-12 left-[404.96px] top-[2325px] absolute">
+              <div class="w-12 h-12 left-0 top-0 absolute bg-sky-600 rounded-full"></div>
+              <div class="w-6 h-6 left-[13px] top-[11px] absolute">
+              </div>
+            </div>
+            <div class="w-12 h-12 left-[80.02px] top-[2327px] absolute">
+              <div class="w-12 h-12 left-0 top-0 absolute bg-sky-500 rounded-full"></div>
+            </div>
+            <div class="w-12 h-12 left-[161.96px] top-[2327px] absolute">
+              <div class="w-12 h-12 left-0 top-0 absolute bg-gradient-to-t from-green-600 to-green-400 rounded-full"></div>
+              <div class="w-8 h-8 left-[8px] top-[8px] absolute">
+                <img class="w-8 h-8 left-0 top-0 absolute" src="https://via.placeholder.com/32x32" />
+              </div>
+            </div>
+            <div class="w-12 h-12 left-[242.96px] top-[2327px] absolute">
+              <div class="w-12 h-12 left-0 top-0 absolute bg-gradient-to-tr from-yellow-400 via-red-600 to-fuchsia-700 rounded-full"></div>
+              <div class="w-8 h-8 left-[8px] top-[8px] absolute">
+                <img class="w-8 h-8 left-0 top-0 absolute" src="https://via.placeholder.com/32x32" />
+                <img class="w-[16.43px] h-[16.43px] left-[7.78px] top-[7.78px] absolute" src="https://via.placeholder.com/16x16" />
+              </div>
+            </div>
+            <div class="w-[212px] h-[88px] left-[1220px] top-[2334px] absolute">
+              <div class="w-[212px] h-[88px] left-0 top-0 absolute bg-white rounded-[10px] shadow"></div>
+              <div class="w-[184px] left-[14px] top-[13px] absolute text-neutral-700 text-[11px] font-normal font-['Nunito Sans']">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</div>
+            </div>
+            <div class="w-[212px] h-[88px] left-[1220px] top-[2441px] absolute">
+              <div class="w-[212px] h-[88px] left-0 top-0 absolute bg-white rounded-[10px] shadow"></div>
+              <div class="w-[184px] left-[14px] top-[13px] absolute text-neutral-700 text-[11px] font-normal font-['Nunito Sans']">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</div>
+            </div>
+            <div class="w-[505px] h-9 left-[236px] top-[1511px] absolute">
+              <div class="w-[505px] left-0 top-0 absolute text-black text-[15px] font-medium font-['Inter']">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+            </div>
+            <div class="w-[536px] left-[236px] top-[1347px] absolute text-black text-[50px] font-extrabold font-['Orbitron'] capitalize">Let’s discuss your<br/>project.</div>
+            <div class="px-6 py-2 left-[236px] top-[1586px] absolute bg-black rounded shadow justify-center items-center gap-4 inline-flex">
+              <div class="text-white text-base font-semibold font-['Open Sans'] leading-normal">Connect Now</div>
+            </div>
+          </div>
+    </footer>
 </body>
 
 </html>
