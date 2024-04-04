@@ -1023,6 +1023,90 @@ video {
   top: 977px;
 }
 
+.left-\[144px\] {
+  left: 144px;
+}
+
+.left-\[165px\] {
+  left: 165px;
+}
+
+.left-\[320px\] {
+  left: 320px;
+}
+
+.left-\[525px\] {
+  left: 525px;
+}
+
+.left-\[632px\] {
+  left: 632px;
+}
+
+.left-\[690px\] {
+  left: 690px;
+}
+
+.top-\[554px\] {
+  top: 554px;
+}
+
+.top-\[652px\] {
+  top: 652px;
+}
+
+.top-\[66px\] {
+  top: 66px;
+}
+
+.left-\[197px\] {
+  left: 197px;
+}
+
+.left-\[375px\] {
+  left: 375px;
+}
+
+.left-\[438px\] {
+  left: 438px;
+}
+
+.left-\[63px\] {
+  left: 63px;
+}
+
+.left-\[70px\] {
+  left: 70px;
+}
+
+.left-\[890px\] {
+  left: 890px;
+}
+
+.top-\[122px\] {
+  top: 122px;
+}
+
+.top-\[42px\] {
+  top: 42px;
+}
+
+.top-\[49px\] {
+  top: 49px;
+}
+
+.left-\[px\] {
+  left: px;
+}
+
+.top-\[40px\] {
+  top: 40px;
+}
+
+.top-\[1px\] {
+  top: 1px;
+}
+
 .mx-20 {
   margin-left: 5rem;
   margin-right: 5rem;
@@ -1340,6 +1424,30 @@ video {
   height: 88px;
 }
 
+.h-\[57px\] {
+  height: 57px;
+}
+
+.h-\[915px\] {
+  height: 915px;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.h-\[116px\] {
+  height: 116px;
+}
+
+.h-\[145px\] {
+  height: 145px;
+}
+
+.h-\[267px\] {
+  height: 267px;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -1546,6 +1654,34 @@ video {
 
 .w-\[989px\] {
   width: 989px;
+}
+
+.w-\[589px\] {
+  width: 589px;
+}
+
+.w-\[85px\] {
+  width: 85px;
+}
+
+.w-\[1171px\] {
+  width: 1171px;
+}
+
+.w-\[167px\] {
+  width: 167px;
+}
+
+.w-\[281px\] {
+  width: 281px;
+}
+
+.w-\[656px\] {
+  width: 656px;
+}
+
+.w-\[28px\] {
+  width: 28px;
 }
 
 .max-w-screen-lg {
@@ -1843,6 +1979,22 @@ video {
   padding-top: 75px;
 }
 
+.pb-\[104px\] {
+  padding-bottom: 104px;
+}
+
+.pl-\[170px\] {
+  padding-left: 170px;
+}
+
+.pr-\[171px\] {
+  padding-right: 171px;
+}
+
+.pt-\[72px\] {
+  padding-top: 72px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1865,6 +2017,10 @@ video {
 
 .font-\[\'Poppins\'\] {
   font-family: 'Poppins';
+}
+
+.font-\[\'Lato\'\] {
+  font-family: 'Lato';
 }
 
 .text-7xl {
@@ -1942,6 +2098,42 @@ video {
 
 .text-\[23px\] {
   font-size: 23px;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
+}
+
+.text-\[2px\] {
+  font-size: 2px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[10px\] {
+  font-size: 10px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[17px\] {
+  font-size: 17px;
+}
+
+.text-\[31px\] {
+  font-size: 31px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[85px\] {
+  font-size: 85px;
 }
 
 .font-semibold {
