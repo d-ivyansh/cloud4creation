@@ -1366,12 +1366,20 @@ video {
   top: 986px;
 }
 
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
 .flex {
   display: flex;
 }
 
 .inline-flex {
   display: inline-flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .h-10 {
@@ -1886,6 +1894,14 @@ video {
   width: 100%;
 }
 
+.w-\[100\] {
+  width: 100;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
 .origin-top-left {
   transform-origin: top left;
 }
@@ -1961,6 +1977,10 @@ video {
 
 .gap-\[9\.60px\] {
   gap: 9.60px;
+}
+
+.gap-\[270px\] {
+  gap: 270px;
 }
 
 .self-stretch {
@@ -2174,6 +2194,22 @@ video {
   padding-top: 75px;
 }
 
+.pb-\[546px\] {
+  padding-bottom: 546px;
+}
+
+.pl-20 {
+  padding-left: 5rem;
+}
+
+.pr-\[82px\] {
+  padding-right: 82px;
+}
+
+.pt-\[46px\] {
+  padding-top: 46px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2188,6 +2224,10 @@ video {
 
 .font-\[\'Poppins\'\] {
   font-family: 'Poppins';
+}
+
+.font-\[\'Lato\'\] {
+  font-family: 'Lato';
 }
 
 .text-3xl {
