@@ -41,37 +41,45 @@
         <div class="w-[660px] h-[784px] left-[687px] top-[671px] absolute bg-white rounded-[21px] shadow"></div>
 
         <!-- form starts here -->
-        <div>
-        <div
-            class="left-[270px] top-[702px] absolute text-center text-black text-[26px] font-black font-['Nunito Sans']">
-            Fill Out This Form To<br />Get In Touch</div>
+        <div class="">
             <div
-            class="w-[376px] left-[216px] top-[861px] absolute flex-col justify-center items-center gap-[46px] inline-flex">
-            <div class="w-[376px] h-[38px] relative">
-                <div class="left-0 top-0 absolute text-black text-[15px] font-semibold font-['Nunito Sans'] capitalize">
-                    Full Name*</div>
+                class="left-[270px] top-[702px] absolute text-center text-black text-[26px]  font-black font-['Nunito Sans']">
+                Fill Out This Form To<br />Get In Touch</div>
+                <form action="https://api.web3forms.com/submit" method="POST"
+                class="w-[376px]  h-[95%] left-[216px] top-[861px] absolute flex-col gap-[50px] justify-between items-center">
+                <input type="hidden" name="access_key" value="ce687783-84f9-4101-b093-500fd9c4abd7">
+                <!-- //to give subject -->
+                <input type="hidden" name="subject" value="A new message from cloudForCreation">
+                <div class="w-[376px]  flex-col items-start justify-start">
+                    <label class="text-black text-[15px] font-semibold font-['Nunito Sans'] capitalize">
+                        Full Name*</label>
+                        <input type="text" id="name"  placeholder="Your name" class="mb-2 w-full  border border-gray-400 mt-3 py-2 pl-10 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name" />
+                </div>
+                <div class="w-[376px] mt-3  flex-col items-center">
+                    <label class="text-black text-[15px] font-semibold font-['Nunito Sans'] capitalize">
+                        Email</label>
+                        <input type="text" id="email"  placeholder="Your email" class="mb-2 w-full  border border-gray-400 mt-3 py-2 pl-10 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email" />
+                </div>
+                <div class="w-[376px] mt-3  flex-col items-center">
+                    <label for="phone" class="text-black text-[15px] font-semibold font-['Nunito Sans'] capitalize">
+                        Phone Number</label>
+                        <input type="text" name="phone" id="phone"  placeholder="Your Contact Number" class="mb-2 w-full  border border-gray-400 mt-3 py-2 pl-10 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email" />
+                </div>
+                <div class="w-[376px] mt-3  flex-col items-center">
+                    <label class="text-black text-[15px] font-semibold font-['Nunito Sans'] capitalize">
+                        Your Question</label>
+                        <textarea id="textarea" name="message" cols="30"  rows="5" placeholder="Write your message..." class="mb-2 w-full rounded-md border border-gray-400 py-2 mt-3 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
+                </div>
+                <div
+                class="px-6 py-2 mt-3 bg-black rounded shadow justify-center items-center gap-4 inline-flex">
+                <button class="text-white text-base font-semibold font-['Open Sans'] leading-normal">Submit Form </button>
             </div>
-            <div class="w-[376px] h-[38px] relative">
-                <div class="left-0 top-0 absolute text-black text-[15px] font-semibold font-['Nunito Sans'] capitalize">
-                    Phone Number</div>
-            </div>
-            <div class="w-[376px] h-[38px] relative">
-                <div class="left-0 top-0 absolute text-black text-[15px] font-semibold font-['Nunito Sans'] capitalize">
-                    Email*</div>
-            </div>
-            <div class="w-[376px] h-[38px] relative">
-                <div class="left-0 top-0 absolute text-black text-[15px] font-semibold font-['Nunito Sans'] capitalize">
-                    Your Question*</div>
-            </div>
+            </form>
+            <!-- <div
+                class="left-[216px] top-[1189px] absolute text-black text-[15px] font-semibold font-['Nunito Sans'] capitalize">
+                Upload Your Art</div>
+            <div class="w-[376px] h-[81px] left-[216px] top-[1220px] absolute bg-neutral-100 rounded-[10px]"></div> -->
         </div>
-        <div
-            class="left-[216px] top-[1189px] absolute text-black text-[15px] font-semibold font-['Nunito Sans'] capitalize">
-            Upload Your Art</div>
-        <div class="w-[376px] h-[81px] left-[216px] top-[1220px] absolute bg-neutral-100 rounded-[10px]"></div>
-        <div
-            class="px-6 py-2 left-[330px] top-[1372px] absolute bg-black rounded shadow justify-center items-center gap-4 inline-flex">
-            <div class="text-white text-base font-semibold font-['Open Sans'] leading-normal">Submit Form</div>
-        </div></div>
         <!-- form ends here -->
         <div
             class="left-[851px] top-[717px] absolute text-center text-black text-[40px] font-black font-['Nunito Sans']">
@@ -135,8 +143,11 @@
                 </div>
             </div>
         </div>
-        <img class="w-[590px] h-[317px] left-[722px] top-[1101px] absolute rounded-[20px] "
-            src="./assets/map.png" />
+        <div class="w-[590px] h-[317px] left-[722px] top-[1101px] absolute rounded-[20px]">
+            <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.252257057239!2d-113.42573942341822!3d53.428197768596185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a01bfcf7e2ecdf%3A0x3d81714c2285b60b!2s5207%204%20Ave%20SW%20%23327%2C%20Edmonton%2C%20AB%20T6X%200C2%2C%20Canada!5e0!3m2!1sen!2sin!4v1713336570671!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- <img class="w-[590px] h-[317px] left-[722px] top-[1101px] absolute rounded-[20px] "
+            src="./assets/map.png" /> -->
     </div>
 
 

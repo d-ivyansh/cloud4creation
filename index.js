@@ -25,3 +25,46 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true,
     },
   });
+
+
+  // Get all accordion buttons
+  const accordionButtons = document.querySelectorAll('.accordion-button');
+            
+  // Loop through each accordion button
+  accordionButtons.forEach(button => {
+      button.addEventListener('click', function() {
+          // Toggle the 'hidden' class on the next element, which is the content
+          const content = this.nextElementSibling;
+          content.classList.toggle('hidden');
+
+          // Rotate the accordion icon
+          const icon = this.querySelector('.accordion-icon');
+          icon.classList.toggle('rotate-180');
+      });
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const accordionItems = document.querySelectorAll('.accordion-item');
+
+    accordionItems.forEach(item => {
+        const question = item.querySelector('.accordion-question');
+        const answer = item.querySelector('.accordion-answer');
+
+        question.addEventListener('click', function () {
+            // Close all accordion items except the one clicked
+            accordionItems.forEach(accordionItem => {
+                if (accordionItem !== item) {
+                    const otherAnswer = accordionItem.querySelector('.accordion-answer');
+                    const otherIcon = accordionItem.querySelector('.arrow');
+                    otherAnswer.classList.add('hidden');
+                    otherIcon.classList.remove('rotate-180');
+                }
+            });
+
+            // Toggle visibility of the clicked item
+            answer.classList.toggle('hidden');
+            const icon = question.querySelector('.arrow');
+            icon.classList.toggle('rotate-180');
+        });
+    });
+});
