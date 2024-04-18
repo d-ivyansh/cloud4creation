@@ -1478,6 +1478,14 @@ video {
   top: 955px;
 }
 
+.top-\[10px\] {
+  top: 10px;
+}
+
+.top-\[px\] {
+  top: px;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -2636,6 +2644,26 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-\[21px\] {
+  font-size: 21px;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-\[1px\] {
+  font-size: 1px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .font-black {
