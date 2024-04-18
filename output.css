@@ -1662,6 +1662,14 @@ video {
   top: 520px;
 }
 
+.top-\[420px\] {
+  top: 420px;
+}
+
+.top-\[430px\] {
+  top: 430px;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
@@ -2381,6 +2389,10 @@ video {
 
 .w-\[871px\] {
   width: 871px;
+}
+
+.w-\[250px\] {
+  width: 250px;
 }
 
 .origin-top-left {
