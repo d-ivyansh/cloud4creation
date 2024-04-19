@@ -59,8 +59,9 @@
   }
 
   .swiper-slide {
-    text-align: center;
+    /* text-align: center; */
     font-size: 18px;
+    gap: 0px; /* importtant */
     background: #fff;
     display: flex;
     /* justify-content: center; */
