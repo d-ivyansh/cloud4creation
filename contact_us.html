@@ -21,7 +21,7 @@
     <div class="w-[1512px] h-[1605px] relative bg-gradient-to-b from-white to-black"
         style="background-image: url('./assets/contact_us_first_screen.png');">
         <div class="w-[1350px] h-[57px] left-[80px] top-[46px] absolute">
-            <div class="w-[798px] h-[26px] left-[552px] top-[20px] absolute">
+            <div class="navbar w-[798px] h-[26px] left-[552px] top-[20px] absolute">
                 <div class="left-0 top-0 absolute text-black text-[22px] font-extralight hover:font-medium"><a href="index.html">Home</a></div>
                 <div class="left-[144px] top-0 absolute text-black text-[22px] font-extralight hover:font-medium"><a href="about_us.html">About Us</a></div>
                 <div class="left-[320px] top-0 absolute text-black text-[22px] font-extralight hover:font-medium"><a href="web_design.html">Web Design</a></div>
@@ -42,11 +42,11 @@
         </div>
                 </a>
         
-        <div class="w-[478px] h-[784px] left-[165px] top-[671px] absolute bg-white rounded-[21px] shadow"></div>
-        <div class="w-[660px] h-[784px] left-[687px] top-[671px] absolute bg-white rounded-[21px] shadow"></div>
+        <div class="formDiv w-[478px] h-[784px] left-[165px] top-[671px] absolute bg-white rounded-[21px] shadow"></div>
+        <div class="contactDiv w-[660px] h-[784px] left-[687px] top-[671px] absolute bg-white rounded-[21px] shadow"></div>
 
         <!-- form starts here -->
-        <div class="">
+        <div class="formDiv">
             <div
                 class="left-[270px] top-[702px] absolute text-center text-black text-[26px]  font-black font-['Nunito Sans']">
                 Fill Out This Form To<br />Get In Touch</div>
@@ -86,6 +86,7 @@
             <div class="w-[376px] h-[81px] left-[216px] top-[1220px] absolute bg-neutral-100 rounded-[10px]"></div> -->
         </div>
         <!-- form ends here -->
+        <div class="contactDiv">
         <div
             class="left-[851px] top-[717px] absolute text-center text-black text-[40px] font-black font-['Nunito Sans']">
             Contact Details!!!</div>
@@ -145,6 +146,7 @@
         <div class="w-[590px] h-[317px] left-[722px] top-[1101px] absolute rounded-[20px]">
             <iframe class="w-full h-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2377.252257057239!2d-113.42573942341822!3d53.428197768596185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a01bfcf7e2ecdf%3A0x3d81714c2285b60b!2s5207%204%20Ave%20SW%20%23327%2C%20Edmonton%2C%20AB%20T6X%200C2%2C%20Canada!5e0!3m2!1sen!2sin!4v1713336570671!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+    </div>
         <!-- <img class="w-[590px] h-[317px] left-[722px] top-[1101px] absolute rounded-[20px] "
             src="./assets/map.png" /> -->
     </div>
@@ -475,6 +477,7 @@
                 <div class="left-[200px] top-0 absolute text-white text-xl font-medium font-['Inter'] hover:underline hover:text-[22px] hover:text-slate-300"><a
                         href="contact_us.html">Contact Us</a></div>
             </div>
+
             <div class="w-[372.96px] h-[334.02px] left-[80px] top-[2232px] absolute">
                 <a href="index.html"><img class="w-[237px] h-[246px] left-[68px] top-0 absolute cursor-pointer" src="./assets/rajbrinder toor full.svg" /></a>
                 
@@ -545,6 +548,9 @@
             
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="contact_gsap.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="./index.js"></script>
     <script src="./loader.js"></script>
