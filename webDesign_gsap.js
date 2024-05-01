@@ -57,4 +57,28 @@ gsap.from(".process",{
           start: "top 80%",
       }
   })
-  
+
+  gsap.from(".developmentCardOuterDiv .developmentCard" , {
+    opacity:0,
+    delay:0.2,
+    duration:1,
+    stagger:0.5,
+    scrollTrigger:{
+        trigger : ".developmentCardOuterDiv .developmentCard",
+        scroller:"body",
+        start: "top 80%",
+    }
+  })
+
+  gsap.from(".outerTextDiv .insideText" , {
+    x:100,
+    opacity:0,
+    delay:1,
+    duration:1,
+    stagger:0.5,
+    scrollTrigger:{
+        trigger : ".developmentCardOuterDiv .developmentCard",
+        scroller:"body",
+        start: "top 80%",
+    }
+  })

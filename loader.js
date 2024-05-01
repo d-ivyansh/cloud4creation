@@ -1,3 +1,5 @@
+document.addEventListener('contextmenu', event => event.preventDefault());
+
 document.onreadystatechange = function() {
     setTimeout(function() {
     if (document.readyState !== "complete") {
