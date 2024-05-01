@@ -1,3 +1,4 @@
+document.addEventListener('contextmenu', event => event.preventDefault());
 
 
 const items = document.querySelectorAll('.accordion-item');
@@ -23,6 +24,7 @@ items.forEach(item => {
         arrow.setAttribute('src', './assets/arrow_down.svg');
     });
 });
+
 
 
 

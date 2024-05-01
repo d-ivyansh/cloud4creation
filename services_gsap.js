@@ -1,3 +1,4 @@
+
 var tl = gsap.timeline();
 var a =0;
 var b = 0; // Define b globally
@@ -71,4 +72,27 @@ gsap.from(".discussProject .discussProjectInsideDiv",{
           start: "top 80%",
       }
   })
-  
+  gsap.from(".outerServicesDiv .innerServiceDiv" , {
+    opacity:0,
+    delay:0.2,
+    duration:1,
+    stagger:0.5,
+    scrollTrigger:{
+        trigger : ".outerServicesDiv .innerServiceDiv",
+        scroller:"body",
+        start: "top 80%",
+    }
+  })
+
+  gsap.from(".outerTextDiv .insideText" , {
+    x:100,
+    opacity:0,
+    delay:1,
+    duration:1,
+    stagger:0.5,
+    scrollTrigger:{
+        trigger : ".developmentCardOuterDiv .developmentCard",
+        scroller:"body",
+        start: "top 80%",
+    }
+  })

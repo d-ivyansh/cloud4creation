@@ -100,3 +100,15 @@ gsap.from(".discussProject .discussProjectInsideDiv",{
           start: "top 80%",
       }
   })
+
+  gsap.from(".outerServicesDiv .innerServiceDiv" , {
+    opacity:0,
+    delay:0.2,
+    duration:1,
+    stagger:0.5,
+    scrollTrigger:{
+        trigger : ".outerServicesDiv .innerServiceDiv",
+        scroller:"body",
+        start: "top 80%",
+    }
+  })
