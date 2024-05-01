@@ -1378,10 +1378,6 @@ video {
   top: 986px;
 }
 
-.col-span-1 {
-  grid-column: span 1 / span 1;
-}
-
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1954,6 +1950,10 @@ video {
   width: 100%;
 }
 
+.w-\[326px\] {
+  width: 326px;
+}
+
 .origin-top-left {
   transform-origin: top left;
 }
@@ -2479,6 +2479,47 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.hover\:h-full:hover {
+  height: 100%;
+}
+
+.hover\:h-fit:hover {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.hover\:h-\[100\]:hover {
+  height: 100;
+}
+
+.hover\:h-\[100\%\]:hover {
+  height: 100%;
+}
+
+.hover\:h-\[150px\]:hover {
+  height: 150px;
+}
+
+.hover\:h-\[160px\]:hover {
+  height: 160px;
+}
+
+.hover\:h-\[165px\]:hover {
+  height: 165px;
+}
+
+.hover\:w-\[\]:hover {
+  width: ;
+}
+
+.hover\:w-\[210px\]:hover {
+  width: 210px;
+}
+
+.hover\:rounded-xl:hover {
+  border-radius: 0.75rem;
+}
+
 .hover\:bg-slate-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(203 213 225 / var(--tw-bg-opacity));
@@ -2514,24 +2555,6 @@ video {
 @media (min-width: 640px) {
   .sm\:mb-0 {
     margin-bottom: 0px;
-  }
-}
-
-@media (min-width: 768px) {
-  .md\:col-span-1 {
-    grid-column: span 1 / span 1;
-  }
-
-  .md\:grid {
-    display: grid;
-  }
-
-  .md\:items-center {
-    align-items: center;
-  }
-
-  .md\:justify-center {
-    justify-content: center;
   }
 }
 
